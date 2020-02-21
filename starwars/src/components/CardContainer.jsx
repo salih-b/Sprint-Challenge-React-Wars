@@ -6,11 +6,6 @@ const Cardconstructor = ()=>{
 const [page, setPage] = useState(1);
 const [data, setData] = useState([]);
 
-    // useEffect(()=>{
-    //     axios
-    //     .get (`https://rickandmortyapi.com/api/character/?page=${page}`)
-    //     .then (response => setData(response.data.results))
-    // }, [page])
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
