@@ -14,14 +14,13 @@ const Card = props => {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     `;
 
 return (
 <StyledBox>
 <StyledH1>{props.name}</StyledH1>
-<h3>{props.birth}</h3>
-<h3>{props.gender}</h3>
+<h3>Date of Birth: {props.birth}</h3>
+<h3>Gender: {props.gender}</h3>
 {/* <img src={props.image}/> */}
 </StyledBox>
 );

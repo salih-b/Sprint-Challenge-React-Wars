@@ -23,8 +23,8 @@ const [data, setData] = useState([]);
         .catch(error => {
           console.log("Not fethcing API data", error);
           
-        }, [page] );
-    });
+        });
+    },[]);
   
 const previous = () =>{
     if(page > 1){
